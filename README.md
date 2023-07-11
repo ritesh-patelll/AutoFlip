@@ -42,13 +42,36 @@ git clone https://github.com/user/autoflip.git
 2. Install dependencies
 
 ```sh
-pip install -r requirements.txt
+pip install opencv-python
+```
+
+```sh
+pip install numpy
+```
+
+```sh
+pip install mediapipe
+```
+
+```sh
+pip install moviepy
 ```
 
 3. Run Detector.py
 
-## Screenshots:
-Visual Demonstrations of the before-and-after are recommended.
+## Need improvement:
+
+1. *Rotation of frames:* If the video includes frames that need to be rotated to fit the correct orientation, consider adding an orientation detection model. For instance, you could train a CNN on a dataset of images that are manually marked for orientation.
+
+2. *Auto-Scaling:* This feature configures the video scaling automatically based on the detected face or object in the frame to optimize the visible area of interest.
+
+3. *Frame Interpolation:* This is a technique where you generate intermediate frames between the two existing ones. This could make your resulting video smoother.
+
+4. *Noise Reduction:* Implement a noise reduction technique to improve the quality of video.
+
+5. *Optimization:* Consider optimizing your code further to increase the speed of the processing time. You can profile your code to find bottlenecks and then address those.
+
+Remember, the introduction of these features might add complexity to the code and may increase processing time. So make sure you thoroughly test any new additions.
 
 ## Contributing:
 Pull requests are always welcome. Feel free to `fork` this repo.
