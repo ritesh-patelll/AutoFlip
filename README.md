@@ -5,7 +5,7 @@ This tool uses AI-based object detection to identify the main action parts in ea
 <p align="center">
   <img src="/demo/BeforeAutoFlip1.gif" alt="GIF" width="40%">
   ----------------->
-  <img src="/demo/AfterAutoFlip1.gif" alt="GIF" height="220px">
+  <img src="/demo/AfterAutoFlip1.gif" alt="GIF" height="230px">
 </p>
 
 <p align="center">
