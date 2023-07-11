@@ -57,8 +57,6 @@ pip install mediapipe
 pip install moviepy
 ```
 
-3. Run Detector.py
-
 ## Need improvement:
 
 1. *Rotation of frames:* If the video includes frames that need to be rotated to fit the correct orientation, consider adding an orientation detection model. For instance, you could train a CNN on a dataset of images that are manually marked for orientation.
