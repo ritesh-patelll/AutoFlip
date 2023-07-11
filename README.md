@@ -3,9 +3,9 @@
 This tool uses AI-based object detection to identify the main action parts in each frame of a video and smartly crops it to ensure no loss of important elements. For face and pose detection it uses MediaPipe, a flexible framework that contains machine learning solutions for live and streaming media.
 
 <p align="center">
-  <img src="/demo/BeforeAutoFlip1.mp4" alt="GIF" width="40%">
+  <video src="/demo/BeforeAutoFlip1.mp4" width="40%" autoplay loop></video>
   ----------------->
-  <img src="/demo/AfterAutoFlip1.mp4" alt="GIF" width="40%">
+  <video src="/demo/AfterAutoFlip1.mp4" width="40%" autoplay loop></video>
 </p>
 
 <p align="center">
